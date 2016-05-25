@@ -1,1 +1,1 @@
-include ':app', ':gridviewdemo'
+include ':app', ':gridviewdemo', ':spinnerdemo', ':myspinnerdemo'

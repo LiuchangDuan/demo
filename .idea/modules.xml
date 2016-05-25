@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Demo2.iml" filepath="$PROJECT_DIR$/Demo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" filepath="$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myspinnerdemo/myspinnerdemo.iml" filepath="$PROJECT_DIR$/myspinnerdemo/myspinnerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" filepath="$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" />
     </modules>
   </component>
 </project>

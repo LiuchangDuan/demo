@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" filepath="$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myspinnerdemo/myspinnerdemo.iml" filepath="$PROJECT_DIR$/myspinnerdemo/myspinnerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" filepath="$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/webviewdemo/webviewdemo.iml" filepath="$PROJECT_DIR$/webviewdemo/webviewdemo.iml" />
     </modules>
   </component>

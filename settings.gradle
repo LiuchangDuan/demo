@@ -1,1 +1,1 @@
-include ':app', ':gridviewdemo', ':spinnerdemo', ':myspinnerdemo', ':webviewdemo', ':viewpagerdemo', ':viewflipper', ':scrollviewdemo'
+include ':app', ':gridviewdemo', ':spinnerdemo', ':myspinnerdemo', ':webviewdemo', ':viewpagerdemo', ':viewflipper', ':scrollviewdemo', ':seekbardemo'

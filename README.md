@@ -1,1 +1,4 @@
 # demo
+使用GridView以表格形式显示多张图片
+使用Spinner实现下拉列表
+使用ViewPager实现导航

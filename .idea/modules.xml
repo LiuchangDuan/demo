@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" filepath="$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/layoutdemo/layoutdemo.iml" filepath="$PROJECT_DIR$/layoutdemo/layoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myspinnerdemo/myspinnerdemo.iml" filepath="$PROJECT_DIR$/myspinnerdemo/myspinnerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressbardemo/progressbardemo.iml" filepath="$PROJECT_DIR$/progressbardemo/progressbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollviewdemo/scrollviewdemo.iml" filepath="$PROJECT_DIR$/scrollviewdemo/scrollviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/seekbardemo/seekbardemo.iml" filepath="$PROJECT_DIR$/seekbardemo/seekbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" filepath="$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" />

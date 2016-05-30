@@ -38,6 +38,28 @@
             liu:progress_text_color="#44ff0000"
             liu:progress_unreach_color="#ffff0000" />
 
+        <com.example.view.RoundProgressBarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:progress="30"
+            liu:radius="20dp"
+            liu:progress_text_color="#ff000000"
+            liu:progress_unreach_color="#ffff0000" />
+
+        <com.example.view.RoundProgressBarWithProgress
+            android:id="@+id/id_progress02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:progress="0"
+            liu:radius="60dp"
+            liu:progress_text_color="#ff000000"
+            liu:progress_text_size="30sp"
+            liu:progress_unreach_color="#44ff0000" />
+
 
     </LinearLayout>
 </ScrollView>

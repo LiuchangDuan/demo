@@ -5,8 +5,13 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Point;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Administrator on 2016/5/30.
@@ -29,6 +34,11 @@ public class FiveInARowPanel extends View {
 
     //棋子与线高之比（为了给子之间留出空隙）
     private float ratioPieceOfLineHeight = 3 * 1.0f / 4;
+
+    //白棋先手，当前轮到白棋
+    private boolean mIsWhite = true;
+    private List<Point> mWhiteArray = new ArrayList<>();
+    private List<Point> mBlackArray = new ArrayList<>();
 
     public FiveInARowPanel(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -85,9 +95,70 @@ public class FiveInARowPanel extends View {
     }
 
     @Override
+    public boolean onTouchEvent(MotionEvent event) {
+
+        int action = event.getAction();
+        if (action == MotionEvent.ACTION_UP) {
+
+            int x = (int) event.getX();
+            int y = (int) event.getY();
+
+            Point p = getValidPoint(x, y);
+
+//            Point p = new Point(x, y);
+
+            if (mWhiteArray.contains(p) || mBlackArray.contains(p)) {
+                return false;
+            }
+
+            if (mIsWhite) {
+                mWhiteArray.add(p);
+            } else {
+                mBlackArray.add(p);
+            }
+
+            invalidate();
+
+            mIsWhite = !mIsWhite;
+
+        }
+
+        return true;
+
+    }
+
+    private Point getValidPoint(int x, int y) {
+
+        return new Point((int) (x / mLineHeight), (int) (y / mLineHeight));
+
+    }
+
+    @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+
         drawBoard(canvas);
+
+        drawPieces(canvas);
+
+    }
+
+    private void drawPieces(Canvas canvas) {
+
+        for (int i = 0, n = mWhiteArray.size(); i < n; i++) {
+            Point whitePoint = mWhiteArray.get(i);
+            canvas.drawBitmap(mWhitePiece,
+                    (whitePoint.x + (1 - ratioPieceOfLineHeight) / 2) * mLineHeight,
+                    (whitePoint.y + (1 - ratioPieceOfLineHeight) / 2) * mLineHeight, null);
+        }
+
+        for (int i = 0, n = mBlackArray.size(); i < n; i++) {
+            Point blackPoint = mBlackArray.get(i);
+            canvas.drawBitmap(mBlackPiece,
+                    (blackPoint.x + (1 - ratioPieceOfLineHeight) / 2) * mLineHeight,
+                    (blackPoint.y + (1 - ratioPieceOfLineHeight) / 2) * mLineHeight, null);
+        }
+
     }
 
     private void drawBoard(Canvas canvas) {

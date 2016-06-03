@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void btnXfermode(View view) {
+        startActivity(new Intent(this, RoundRectXfermodeTest.class));
+    }
+
     public void btnMatrix(View view) {
         startActivity(new Intent(this, ImageMatrixTest.class));
 

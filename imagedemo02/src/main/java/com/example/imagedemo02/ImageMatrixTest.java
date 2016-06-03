@@ -1,8 +1,10 @@
 package com.example.imagedemo02;
 
 import android.app.Activity;
+import android.graphics.Matrix;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.GridLayout;
 
@@ -65,6 +67,36 @@ public class ImageMatrixTest extends Activity {
                 mEts[i].setText(String.valueOf(0));
             }
         }
+    }
+
+    private void getImageMatrix() {
+        for (int i = 0; i < 9; i++) {
+            EditText ed = mEts[i];
+            mImageMatrix[i] = Float.parseFloat(ed.getText().toString());
+        }
+    }
+
+
+    public void change(View view) {
+        getImageMatrix();
+        Matrix matrix = new Matrix();
+//        matrix.setValues(mImageMatrix);
+//        //X轴偏移量，Y轴偏移量
+//        matrix.setTranslate(150, 150);
+        matrix.setScale(2, 2);
+        matrix.postTranslate(200, 200);
+        //矩阵先乘和后乘是不一样的
+        mImageMatrixView.setImageMatrix(matrix);
+        mImageMatrixView.invalidate();
+    }
+
+    public void reset(View view) {
+        initImageMatrix();
+        getImageMatrix();
+        Matrix matrix = new Matrix();
+        matrix.setValues(mImageMatrix);
+        mImageMatrixView.setImageMatrix(matrix);
+        mImageMatrixView.invalidate();
     }
 
 

@@ -13,6 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void btnMesh(View view) {
+        startActivity(new Intent(this, MeshViewTest.class));
+    }
+
+    public void btnReflect(View view) {
+        startActivity(new Intent(this, ReflectViewTest.class));
+    }
+
     public void btnShader(View view) {
         startActivity(new Intent(this, BitmapShaderTest.class));
     }

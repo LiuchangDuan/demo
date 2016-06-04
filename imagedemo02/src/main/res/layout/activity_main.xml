@@ -35,4 +35,16 @@
         android:onClick="btnShader"
         android:text="Shader" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnReflect"
+        android:text="Reflect" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnMesh"
+        android:text="Mesh" />
+
 </LinearLayout>

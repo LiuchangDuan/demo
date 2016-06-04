@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void btnShader(View view) {
+        startActivity(new Intent(this, BitmapShaderTest.class));
+    }
+
     public void btnXfermode(View view) {
         startActivity(new Intent(this, RoundRectXfermodeTest.class));
     }

@@ -29,4 +29,10 @@
         android:onClick="btnXfermode"
         android:text="Xfermode" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnShader"
+        android:text="Shader" />
+
 </LinearLayout>

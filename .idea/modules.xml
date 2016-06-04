@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Demo2.iml" filepath="$PROJECT_DIR$/Demo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fiveinarow/fiveinarow.iml" filepath="$PROJECT_DIR$/fiveinarow/fiveinarow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentpageradapterdemo/fragmentpageradapterdemo.iml" filepath="$PROJECT_DIR$/fragmentpageradapterdemo/fragmentpageradapterdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmenttabdemo/fragmenttabdemo.iml" filepath="$PROJECT_DIR$/fragmenttabdemo/fragmenttabdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" filepath="$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/imagedemo/imagedemo.iml" filepath="$PROJECT_DIR$/imagedemo/imagedemo.iml" />

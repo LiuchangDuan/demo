@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baseadapterdemo" />
             <option value="$PROJECT_DIR$/fiveinarow" />
             <option value="$PROJECT_DIR$/fragmentpageradapterdemo" />
             <option value="$PROJECT_DIR$/fragmenttabdemo" />

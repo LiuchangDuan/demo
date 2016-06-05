@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo2.iml" filepath="$PROJECT_DIR$/Demo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseadapterdemo/baseadapterdemo.iml" filepath="$PROJECT_DIR$/baseadapterdemo/baseadapterdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fiveinarow/fiveinarow.iml" filepath="$PROJECT_DIR$/fiveinarow/fiveinarow.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentpageradapterdemo/fragmentpageradapterdemo.iml" filepath="$PROJECT_DIR$/fragmentpageradapterdemo/fragmentpageradapterdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmenttabdemo/fragmenttabdemo.iml" filepath="$PROJECT_DIR$/fragmenttabdemo/fragmenttabdemo.iml" />

@@ -16,8 +16,10 @@
       <module fileurl="file://$PROJECT_DIR$/scrollviewdemo/scrollviewdemo.iml" filepath="$PROJECT_DIR$/scrollviewdemo/scrollviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/seekbardemo/seekbardemo.iml" filepath="$PROJECT_DIR$/seekbardemo/seekbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" filepath="$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerlibrary/viewPagerlibrary.iml" filepath="$PROJECT_DIR$/viewPagerlibrary/viewPagerlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewflipper/viewflipper.iml" filepath="$PROJECT_DIR$/viewflipper/viewflipper.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerindicatordemo/viewpagerindicatordemo.iml" filepath="$PROJECT_DIR$/viewpagerindicatordemo/viewpagerindicatordemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewpagertabdemo/viewpagertabdemo.iml" filepath="$PROJECT_DIR$/viewpagertabdemo/viewpagertabdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/webviewdemo/webviewdemo.iml" filepath="$PROJECT_DIR$/webviewdemo/webviewdemo.iml" />
     </modules>

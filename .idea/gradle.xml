@@ -23,8 +23,10 @@
             <option value="$PROJECT_DIR$/scrollviewdemo" />
             <option value="$PROJECT_DIR$/seekbardemo" />
             <option value="$PROJECT_DIR$/spinnerdemo" />
+            <option value="$PROJECT_DIR$/viewPagerlibrary" />
             <option value="$PROJECT_DIR$/viewflipper" />
             <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/viewpagerindicatordemo" />
             <option value="$PROJECT_DIR$/viewpagertabdemo" />
             <option value="$PROJECT_DIR$/webviewdemo" />
           </set>

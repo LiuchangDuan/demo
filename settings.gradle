@@ -1,1 +1,2 @@
-include ':app', ':gridviewdemo', ':spinnerdemo', ':myspinnerdemo', ':webviewdemo', ':viewpagerdemo', ':viewflipper', ':scrollviewdemo', ':seekbardemo', ':layoutdemo', ':progressbardemo', ':fiveinarow', ':imagedemo', ':imagedemo02', ':viewpagertabdemo', ':fragmenttabdemo', ':fragmentpageradapterdemo'
+include ':app', ':gridviewdemo', ':spinnerdemo', ':myspinnerdemo', ':webviewdemo', ':viewpagerdemo', ':viewflipper', ':scrollviewdemo', ':seekbardemo', ':layoutdemo', ':progressbardemo', ':fiveinarow', ':imagedemo', ':imagedemo02', ':viewpagertabdemo', ':fragmenttabdemo', ':fragmentpageradapterdemo', ':viewpagerindicatordemo'
+include ':viewPagerlibrary'
